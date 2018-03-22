@@ -1,0 +1,32 @@
+{
+  "name": "react-my-example2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "\"\"",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangyichen1064431086/react-my-example2.git"
+  },
+  "keywords": [
+    "tabs"
+  ],
+  "author": "wangyichen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wangyichen1064431086/react-my-example2/issues"
+  },
+  "homepage": "https://github.com/wangyichen1064431086/react-my-example2#readme",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "immutable": "^3.8.2",
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-css-modules": "^4.7.2",
+    "react-dom": "^16.2.0",
+    "react-immutable-render-mixin": "^0.9.7",
+    "react-motion": "^0.5.2"
+  }
+}
