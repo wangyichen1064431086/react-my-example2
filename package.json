@@ -7,7 +7,7 @@
   ],
   "scripts": {
     "start": "cross-env NODE_ENV=development node server.js",
-    "test": "jest --verbose"
+    "test": "cross-env NODE_ENV=testing jest --verbose"
   },
   "repository": {
     "type": "git",
@@ -30,12 +30,9 @@
     "react-motion": "^0.5.2"
   },
   "jest": {
-    "scriptPreprocessor": "node_modules/babel-jest",
-    "unmockedModulePathPatterns": [
-        "node_modules/react",
-        "node_modules/react-dom",
-        "node_modules/fbjs"
-    ],
+    "moduleNameMapper": {
+      "(\\.css|\\.scss)$": "identity-obj-proxy"
+    },
     "transform": {
       "^.+\\.jsx?$": "babel-jest"
     }
@@ -53,6 +50,7 @@
     "cross-env": "^5.1.4",
     "css-loader": "^0.28.11",
     "express": "^4.16.3",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^22.4.3",
     "jest-cli": "^22.4.3",
     "node-sass": "^4.8.3",

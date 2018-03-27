@@ -1,4 +1,4 @@
-:global { // CSS modules相当于给每个class名都加了:local,即默认样式局部化。要想切换到全局模式，可以使用:global包裹
+:global {
   html, body {
     margin: 0;
     padding: 0;
