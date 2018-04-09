@@ -21,7 +21,7 @@ class App extends React.Component {
       activeIndex: parseInt(e.target.value, 10)
     });
   }
-  /*
+  
   getTable() {
     const fieldsInfoForTable = [
       {
@@ -105,7 +105,7 @@ class App extends React.Component {
       </FtcTable>
     );
   }
-  */
+  
   render() {
     return (
       <div>
@@ -128,7 +128,7 @@ class App extends React.Component {
             第三个Tab里的内容
           </TabPane>
         </Tabs>
-        {/*this.getTable()*/}
+        {this.getTable()}
       </div>
     );
   }
